@@ -1,0 +1,8 @@
+name: MyBatis Plus Entity and Mapper Generate by DBML
+inputs:
+  scheme_file:
+    required: true
+    description: DBML file to generate code
+runs:
+  using: "docker"
+  image: 'Dockerfile'
